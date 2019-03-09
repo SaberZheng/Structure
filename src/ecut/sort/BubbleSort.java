@@ -10,6 +10,7 @@ import edu.princeton.cs.algs4.StdOut;
  * 冒泡排序是将数组依次比较相邻的两个数，将小数放在前面，大数放在后面。
  * 需要n-1趟完成排序，比较次数最坏是1+2.....+(n-1)即n(n-1)/2 ~ n^2/2次,时间复杂度是O(n^2)。
  */
+
 public class BubbleSort {
 	
 	private static Scanner sc;
